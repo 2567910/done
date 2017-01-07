@@ -1,6 +1,6 @@
 ### To run the application
 
-1. Download the /dist/ folder in your computer.
+1. Download the project on your computer.
 1. To inspect the site on your phone, you can run a local server:
 
   ```bash
