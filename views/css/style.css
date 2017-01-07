@@ -34,6 +34,7 @@ This reduced painting times, but seemed to introduce more scripting and renderin
   position: fixed;
   width: 256px;
   z-index: -1;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
