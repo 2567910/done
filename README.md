@@ -28,6 +28,7 @@ PageSpeed Insights score: **94/100**
 ### Provided information
 
 ####Part 1: Optimize PageSpeed Insights score for index.html
+
     ** Inline css recommended by PageSpeed in order to get more speed
     ** Took out the font link, too heavy for the loading process.
     ** CSS for media print was made.
@@ -37,8 +38,7 @@ PageSpeed Insights score: **94/100**
 
 ####Part 2: Optimize Frames per Second in pizza.html
     ** CSS files were minimized for better loading process.
-
-To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js.
+    ** To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js.
     ** Resizes pizza function was optimized including the width selector within it's code for better performance.  Also using a % value for resizing.
     ** Replaced the call for the document pizza container in order to use it within the for loop
     ** Update position function optimized:  properties obtained by using getElementsByClassName.  Stored length of the object 'mover' and also the scrollTop propertie of the Document.
